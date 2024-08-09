@@ -75,3 +75,11 @@ nav li a:hover {
     background-color: #FFFFFF;
     opacity: 75%;
 }
+
+footer {
+    clear: both;
+    width: 1026px;
+    height: 0px;
+    background-color: #1c8c93;
+    padding-bottom: 200px;
+}
