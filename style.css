@@ -36,9 +36,14 @@ body {
 #page_title {
     width: 700px;
     position: absolute;
-    padding-left: 10px;
+    padding-left: 35px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 15px;
+}
+
+#page_title h1 {
+    font-family: serif;
+    font-size: 50px;
 }
 
 .title {
@@ -66,9 +71,10 @@ nav li a {
     display: block;
     text-decoration: none;
     text-align: center;
-    padding: 14px 50px;
+    padding: 14px 10px;
     font-size:  20px;
     color: #000000;
+    font-family: serif;
 }
 
 nav li a:hover {
@@ -82,4 +88,18 @@ footer {
     height: 0px;
     background-color: #1c8c93;
     padding-bottom: 200px;
+}
+
+
+#footer_header {
+    position: absolute;
+    padding-left: 355px;
+    padding-top: 50px;
+}
+
+
+
+#footer_txt {
+    position: absolute;
+    padding-top: 75px;
 }
