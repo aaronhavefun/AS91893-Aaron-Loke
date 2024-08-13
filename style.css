@@ -79,3 +79,37 @@ body {
   #page_title {
     float: right;
   }
+
+  footer {
+    clear: both;
+    width: 1896px;
+    height: 75px;
+    background-color: rgb(131, 130, 130);
+    padding-bottom: 200px;
+  }
+
+.footer_logo img {
+  width: 125px;
+  padding-left: 900px;
+  padding-top: 25px;
+}
+
+
+#white_line {
+    background-color: #eaf6f5;
+    width: 180px;
+    height: 2px;
+    margin-left: 875px;
+    margin-top: 20px;
+    
+}
+
+
+#footer_title {
+  padding-left: 884px;
+}
+
+#footer_title h3 {
+  color: #ffffff;
+  font-style: italic;
+}
