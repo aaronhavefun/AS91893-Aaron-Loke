@@ -65,7 +65,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2aacb9;
+  background-color: #0D5A67;
 }
 
 nav li {
@@ -83,4 +83,35 @@ nav li a {
 
 nav li a:hover {
   background-color: #05013D;
+}
+
+
+footer {
+  clear: both;
+  height: 0px;
+  background-color: #0D5A67;
+  padding-bottom: 200px;
+}
+
+#more_info li {
+  list-style-type: none;
+}
+
+#more_info { 
+  float: left;
+  margin-top: 60px;
+}
+
+#more_info a {
+  color: #ffffff;
+}
+
+#footer_logo img {
+  width: 150px;
+}
+
+#footer_logo {
+  float: right;
+  padding-right: 450px;
+  padding-top: 40px;
 }
