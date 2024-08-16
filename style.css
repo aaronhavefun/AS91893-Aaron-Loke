@@ -89,7 +89,7 @@ nav li a:hover {
 footer {
   clear: both;
   height: 0px;
-  background-color: #0D5A67;
+  background-image: linear-gradient(90deg,black, #6B999F);
   padding-bottom: 200px;
 }
 
@@ -99,11 +99,13 @@ footer {
 
 #more_info { 
   float: left;
-  margin-top: 60px;
+  margin-top: 50px;
+  
 }
 
 #more_info a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 #footer_logo img {
@@ -112,6 +114,49 @@ footer {
 
 #footer_logo {
   float: right;
-  padding-right: 450px;
-  padding-top: 40px;
+  padding-right: 10px;
+  padding-top: 45px;
+}
+
+#white_line {
+    background-color: #ffffff;
+    width: 2px;
+    height: 125px;
+    position: absolute;   
+    margin-top: 35px;
+    margin-left: 300px;
+}
+
+#footer_title h1 {
+  font-size: 28px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+#footer_title {
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 375px;
+}
+
+#info h1 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#info h2 {
+  color: #ffffff;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+#info a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#info {
+  padding-left: 325px;
+  padding-top: 2px;
 }
