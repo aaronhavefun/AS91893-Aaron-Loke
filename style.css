@@ -3,7 +3,7 @@
   margin: 0 auto;
   box-shadow: 0px 0px 48px 16px rgba(0,0,0,0.175);
   border: 1px solid black;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 .thumb {
@@ -49,7 +49,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #33585D;
+  background-color: #2aacb9;
 }
 
 nav li {
@@ -72,42 +72,43 @@ nav li a:hover {
 footer {
   clear: both;
   height: 0px;
-  background-image: linear-gradient(90deg,black, #6B999F);
+  background-image: linear-gradient(90deg, black, #6B999F);
   padding-bottom: 200px;
 }
 
 #more_info li {
   list-style-type: none;
+  height: 40px;
 }
 
 #more_info { 
   float: left;
   margin-top: 50px;
-  
 }
 
 #more_info a {
   color: #ffffff;
   text-decoration: none;
+  
 }
 
 #footer_logo img {
-  width: 150px;
+  width: 175px;
 }
 
 #footer_logo {
   float: right;
-  padding-right: 10px;
-  padding-top: 45px;
+  padding-right: 5px;
+  padding-top: 30px;
 }
 
 #white_line {
-    background-color: #ffffff;
-    width: 2px;
-    height: 125px;
-    position: absolute;   
-    margin-top: 35px;
-    margin-left: 300px;
+  background-color: #ffffff;
+  width: 5px;
+  height: 150px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 300px;
 }
 
 #footer_title h1 {
@@ -136,10 +137,14 @@ footer {
 #info a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #info {
   padding-left: 325px;
   padding-top: 2px;
 }
+
+
+
+
