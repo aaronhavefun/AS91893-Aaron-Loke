@@ -78,10 +78,9 @@ footer {
 
 #more_info li {
   list-style-type: none;
-  height: 40px;
 }
 
-#more_info { 
+#more_info {
   float: left;
   margin-top: 50px;
 }
@@ -89,7 +88,6 @@ footer {
 #more_info a {
   color: #ffffff;
   text-decoration: none;
-  
 }
 
 #footer_logo img {
@@ -109,6 +107,18 @@ footer {
   position: absolute;
   margin-top: 20px;
   margin-left: 300px;
+}
+
+#footer_title h1 {
+  font-size: 28px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+#footer_title {
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 375px;
 }
 
 #info h1 {
@@ -132,7 +142,4 @@ footer {
   padding-left: 325px;
   padding-top: 2px;
 }
-
-
-
 
