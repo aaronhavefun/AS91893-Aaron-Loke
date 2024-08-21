@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aaron Loke">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script><html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
     <title>Home</title>
 </head>
 <body>
@@ -25,42 +28,18 @@
             <li><a href="locations2.html"><strong>Ngāti Paoa & Waitematā Harbour</strong></a></li>
         </ul>
     </nav>
-    
-    <div class="container">
-        <div class="slideshow">
-            <div id="slide-1" class="slide">
-                <a href="#slide-7"></a>
-                <a href="#slide-2"></a>
-                <img src="images/bench.jpg" />
-            </div>
-            <div id="slide-2" class="slide">
-                <a href="#slide-1"></a>
-                <a href="#slide-3"></a>
-                <img src="images/bridge.jpg" />
-            </div>
-            <div id="slide-3" class="slide">
-                <a href="#slide-2"></a>
-                <a href="#slide-4"></a>
-                <img src="images/eastward_view.jpg" />
-            </div>
-            <div id="slide-4" class="slide">
-                <a href="#slide-3"></a>
-                <a href="#slide-5"></a>
-                <img src="images/lighthouse.jpg" />
-            </div>
-            <div id="slide-5" class="slide">
-                <a href="#slide-4"></a>
-                <a href="#slide-6"></a>
-                <img src="images/rangitoto_aerial.jpg" />
-            </div>
-            <div id="slide-6" class="slide">
-                <a href="#slide-5"></a>
-                <a href="#slide-7"></a>
-                <img src="images/rangitoto_sunset.jpg" />
-            </div>
-        </div>
-    </div>
 
+    <div id="gallery">
+        <a data-fancybox="gallery" href="images/bench.jpg"><img src="resized/bench.jpg" alt="Bench Overlooking Waitemata Harbour" class="thumb"></a>
+        <a data-fancybox="gallery" href="images/bridge.jpg"><img src="resized/bridge.jpg" alt="Bridge Lake Pupuke" class="thumb"></a>
+        <a data-fancybox="gallery" href="images/eastward_view.jpg"><img src="resized/eastward_view.jpg" alt="Eastward View of Lake Pupuke" class="thumb"></a>
+        <a data-fancybox="gallery" href="images/lighthouse.jpg"><img src="resized/lighthouse.jpg" alt="Lighthouse" class="thumb"></a>
+        <a data-fancybox="gallery" href="images/rangitoto_aerial.jpg"><img src="resized/rangitoto_aerial.jpg" alt="Rangitoto from Above" class="thumb"></a>
+        <a data-fancybox="gallery" href="images/rangitoto_sunset.jpg"><img src="resized/rangitoto_sunset.jpg" alt="Rangitoto during Sunset" class="thumb"></a>
+       
+    </div>
+    
+    
     
     <div id="main_title">
         <h1>Our Vision</h1>
