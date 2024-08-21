@@ -72,7 +72,7 @@ nav li a:hover {
 footer {
   clear: both;
   height: 0px;
-  background-image: linear-gradient(90deg, black, #6B999F);
+  background-image: linear-gradient(90deg, black, #285A5D);
   padding-bottom: 200px;
 }
 
@@ -151,21 +151,19 @@ footer {
 
 
 .container {
-  padding-top: 40px;
   border-radius: 5px;
-  margin: 0 auto;
   position: relative;
   transition: box-shadow 200ms;
   margin: 0 auto 20px;
   max-width: 500px;
+  max-height: 500px;
 }
 
 .container:hover {
   box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.25);
 }
 
-.slideshow {
-  position: relative;
+.slideshow {  
   width: 100%;
 }
 
@@ -242,5 +240,16 @@ footer {
   height: 100%;
   object-fit: cover;
 }
+
+
+#main_title {
+  text-align: center;
+  color: #07ACC3;
+}
+
+#main_title h1 {
+  font-size: 32px;
+}
+
 
 
