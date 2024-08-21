@@ -152,7 +152,7 @@ footer {
 
 #main_title {
   text-align: center;
-  color: #07ACC3;
+  color: #005E6A;
   margin-bottom: -40px;
 }
 
@@ -162,7 +162,7 @@ footer {
 
 #sub_title {
   text-align: center;
-  color: #07ACC3;
+  color: #005E6A;
 }
 
 #sub_title h3 {
@@ -196,10 +196,49 @@ footer {
   border-style: solid;
   border-radius: 5px;
   border-width: 3px;
-  width: 370px;
-  margin-left: 320px;
+  width: 400px;
+  margin-left: 300px;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
   
+}
+
+.waiata_title {
+  color: #005A80;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.waiata_sub {
+  font-weight: bold;
+}
+
+#waiata_3 {
+  font-weight: bold;
+  
+}
+
+#pupuke_background img {
+  width: 1026px;
+}
+
+#gradient_cover {
+  height: 350px;
+  width: 1026px;
+  background-image: linear-gradient(90deg, #A0D2E8, black );
+  opacity: 0.7;
+  position: absolute;
+  margin-top: -354px;
+}
+
+.main_title {
+  background-color: #505050;
+  width: 250px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: -250px;
 }
