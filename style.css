@@ -305,8 +305,30 @@ footer {
   width: 160px;
   height: 110px;
   border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #stacked {
-  margin-top: 200px;
+  margin-top: 350px;
+  margin-left: 150px;
+  padding-bottom: 250px;
 }
+
+#sunset {
+  transform: rotate(10deg);
+  position: absolute;
+  margin-top: -200px;
+}
+
+#swan {
+  transform: rotate(-10deg);
+  position: absolute;
+  margin-top: -75px;
+}
+
+#grassy {
+  transform: rotate(10deg);
+  position: absolute;
+  margin-top: 50px;
+}
+
