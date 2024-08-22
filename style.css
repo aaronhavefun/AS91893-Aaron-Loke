@@ -240,5 +240,73 @@ footer {
   font-size: 40px;
   border-radius: 10px;
   position: absolute;
+  margin-top: -200px;
+  margin-left: 100px;
+  padding: 15px;
+}
+
+.main_desc {
+  background-color: #505050;
+  color: #ffffff;
+  width: 422px;
+  border-radius: 10px;
+  padding: 15px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -290px;
+}
+
+.circles {
+  width: 328px;
+  height: 320px;
+  border-radius: 50%;
+  background-color: #BCDAD5;
+}
+
+#circle1 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#circle2 {
+  position: absolute;
+  margin-left: 685px;
+  margin-top: -100px;
+  z-index: 1;
+}
+
+#geo_maori_pupuke {
+  background-color: #454545;
+  width: 690px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 150px;
   margin-top: -250px;
+  position: relative;
+  z-index: 2;
+}
+
+.sub {
+  color: #27CBFF;
+  font-weight: bold;
+}
+
+#black_line2 {
+  width: 850px;
+  height: 5px;
+  background-color: black;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+#stacked img {
+  width: 160px;
+  height: 110px;
+  border: 2px solid black;
+}
+
+#stacked {
+  margin-top: 200px;
 }
