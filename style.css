@@ -324,11 +324,13 @@ footer {
   transform: rotate(-10deg);
   position: absolute;
   margin-top: -75px;
+  z-index: 2
 }
 
 #grassy {
   transform: rotate(10deg);
   position: absolute;
   margin-top: 50px;
+  z-index: 1
 }
 
