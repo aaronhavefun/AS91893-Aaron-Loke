@@ -339,3 +339,96 @@ footer {
   width: 170px;
 }
 
+
+#sub1 {
+  background-color: #505050;
+  width: 110px;
+  padding: 1px;
+  padding-left: 10px;
+  color: #27CBFF;
+  border-radius: 10px;
+  margin-left: 50px;
+  position: absolute;
+  margin-left: 420px;
+  margin-top: -480px;
+}
+
+
+#humanuse_p {
+  width: 400px;
+  float: right;
+  margin-top: -400px;
+  margin-right: 200px;
+}
+
+.main_title2 {
+  background-color: #505050;
+  width: 320px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 15px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 580px;
+  margin-top: 150px;
+}
+
+.main_desc2 {
+  background-color: #505050;
+  color: #ffffff;
+  width: 450px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 15px; 
+  font-size: 16px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 25px;
+  z-index: 2;
+}
+
+#gradient_cover2 {
+  width: 1026px;
+  height: 400px;
+  background-image: linear-gradient(90deg, black, #A0D2E8 );
+  opacity: 0.7;
+  position: absolute;
+  margin-top: -404px;
+  z-index: 1;
+}
+
+#rangitoto_background img {
+  width: 1026px;
+  max-height: 400px;
+}
+
+#sub2 {
+  background-color: #505050;
+  color: #27CBFF;
+  width: 165px;
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 10px;
+  margin-left: 415px;
+  margin-top: 50px;
+}
+
+
+#maori_hisp {
+  text-align: center;
+  width: 780px;
+  margin-left: 110px;
+}
+
+#rocky_shore img {
+  height: 225px;
+  width: 650px;
+}
+
+#rocky_shore {
+  margin-left: 175px;
+  
+}
