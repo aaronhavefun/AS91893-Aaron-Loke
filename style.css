@@ -256,6 +256,10 @@ footer {
   margin-top: -290px;
 }
 
+.main_desc a {
+  color: #ffffff;
+}
+
 .circles {
   width: 328px;
   height: 320px;
@@ -432,3 +436,38 @@ footer {
   margin-left: 175px;
   
 }
+
+#sub3 {
+  background-color: #505050;
+  color: #27CBFF;
+  width: 80px;
+  padding: 1px;
+  padding-right: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#geo_p {
+  width: 500px;
+  margin-left: 170px;
+}
+
+#side_image img {
+  width: 200px;
+}
+
+#side_image {
+  position: absolute;
+  margin-top: -900px;
+  margin-left: 700px;
+}
+
+#wiki {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: -20px;
+}
+
+
