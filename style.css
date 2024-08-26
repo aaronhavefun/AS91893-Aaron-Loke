@@ -556,7 +556,76 @@ footer {
 .main_title4 {
   background-color: #505050;
   color: #ffffff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 40px;
+  width: 370px;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 550px;
 }
 
+#waitemata_background img {
+  width: 1026px;
+  height: 435px;
+}
 
+#waitemata_background {
+  margin-bottom: -4px;
+}
+
+.main_desc4 {
+  background-color: #505050;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 16px;
+  padding: 15px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -350px;
+}
+
+#gradient_cover4 {
+  background-image: linear-gradient(90deg, black, #A0D2E8);
+  opacity: 0.7;
+  width: 1026px;
+  height: 435px;
+  position: absolute;
+  margin-top: -439px;
+}
+
+#tri_background img {
+  width: 1026px;
+}
+
+#sub5 {
+  color: #27CBFF;
+  position: absolute;
+  margin-top:  190px;
+  margin-left: 650px;
+  z-index: 2;
+  
+}
+
+#et_desc {
+  color: #ffffff;
+  width: 310px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 240px;
+  margin-left: 650px;
+  font-size: 15px;
+}
+
+#triangle {
+  width: 0;
+	height: 0;
+	border-left: 1026px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 551px solid #2E2E2E;
+  position: absolute;
+  margin-left: 0px;
+}
  
