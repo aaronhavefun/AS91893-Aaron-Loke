@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta tags, link for stylesheet, title and importing fonts.-->
+    <!--Additionally external links for gallery scripts.-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script><html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
+<!--Block containing all the websites elements-->
 <div id="page_container">
+    <!--Items inside the header, both the header design itself and the navigational buttons.-->
     <header>
         <div id="logo">
             <img src="images/kahui_logo.png" alt="Pupuke Kahui Logo">
@@ -22,13 +29,14 @@
         </div>
     </header>
     <nav>
+        <!--Navigational buttons.-->
         <ul>
             <li><a href="index.html"><strong>Home</strong></a></li>
             <li><a href="locations1.html"><strong>Lake Pupuke & Rangitoto Island</strong></a></li>
             <li><a href="locations2.html"><strong>Ngāti Paoa & Waitematā Harbour</strong></a></li>
         </ul>
     </nav>
-
+    <!--Gallery images with resized images to fit a consistent scheme-->
     <div id="gallery">
         <a data-fancybox="gallery" href="images/bench.jpg"><img src="resized/bench.jpg" alt="Bench Overlooking Waitemata Harbour" class="thumb"></a>
         <a data-fancybox="gallery" href="images/bridge.jpg"><img src="resized/bridge.jpg" alt="Bridge Lake Pupuke" class="thumb"></a>
@@ -40,7 +48,7 @@
     </div>
     
     
-    
+    <!--Containers for page information, subtitles and headers.-->
     <div id="main_title">
         <h1>Our Vision</h1>
     </div>
@@ -56,9 +64,9 @@
             of an individual, but the work of many.
         </p>
     </div>
-
+    <!--Seperator-->
     <div id="black_line"></div>
-
+    <!--Waiata-->
     <div id="waiata">
         <div class="waiata_title">
             <br>'RANGITOTO'
@@ -98,15 +106,16 @@
 
         </div>
     </div>
-
+    <!--Footer elements.-->
     <footer>
         <div id="more_info">
             <ul>
+                <!--Footer navigational links.-->
                 <li><a href="locations1.html">Lake Pupuke & Rangitoto Island</a></li>
                 <li><a href="locations2.html">Ngāti Paoa & Waitematā Harbour</a></li>
             </ul>
         </div>
-
+        <!--Footer design elements and information.-->
         <div id="footer_logo">
             <img src="images/kahui_logo.png" alt="Pupuke Kahui Ako Logo">
         </div>
@@ -116,6 +125,7 @@
         <div id="info">
             <h1>Want to learn more?</h1>
             <h2>Visit the offcial Te Kāhui Ako o Pupuke website.</h2>
+            <!--Link to main website.-->
             <h3><a href="https://www.tekaahuiakoopupuke.co.nz/" target="_blank">https://www.tekaahuiakoopupuke.co.nz/</a></h3>
         </div>
     </footer>
