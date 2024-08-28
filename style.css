@@ -435,6 +435,7 @@ footer {
 #rocky_shore img {
   height: 225px;
   width: 650px;
+  border: 2px solid black;
 }
 
 #rocky_shore {
@@ -461,7 +462,9 @@ footer {
 }
 
 #side_image img {
-  width: 200px;
+  height: 800px;
+  width: 250px;
+  border: 2px solid black;
 }
 
 #side_image {
@@ -519,15 +522,15 @@ footer {
 
 #sub4 {
   background-color: #505050;
-  color: #27CBFF;
-  width: 120px;
-  padding: 1px;
+  color: #ffffff;
+  font-size: 24px;
+  width: 180px;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 5px;
   float: right;
-  margin-right: 400px;
-  margin-top: 150px;
+  margin-right: 340px;
+  margin-top: 120px;
 }
 
 #hist_p {
@@ -607,29 +610,29 @@ footer {
 }
 
 #sub5 {
-  color: #27CBFF;
+  color: #ffffff;
+  font-size: 32px;
   position: absolute;
-  margin-top:  190px;
-  margin-left: 650px;
+  margin-top:  200px;
+  margin-left: 10px;
   z-index: 2;
-  
 }
 
 #et_desc {
   color: #ffffff;
-  width: 310px;
+  width: 450px;
   position: absolute;
   z-index: 2;
-  margin-top: 240px;
-  margin-left: 650px;
-  font-size: 15px;
+  margin-top: 300px;
+  margin-left: 10px;
+  font-size: 16px;
 }
 
 #triangle {
   width: 0;
   height: 0;
-  border-left: 1026px solid transparent;
-  border-right: 0px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 1026px solid transparent;
   border-bottom: 551px solid #2E2E2E;
   position: absolute;
   margin-left: 0px;
@@ -637,11 +640,12 @@ footer {
 
 #sub6 {
   background-color: #505050;
-  color: #27CBFF;
+  color: #ffffff;
+  font-size: 24px;
   padding: 1px;
   padding-left: 10px;
   border-radius: 10px;
-  width: 70px;
+  width: 105px;
   margin-top: 100px;
   margin-left: 200px;
 }
