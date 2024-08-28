@@ -155,7 +155,6 @@ footer {
   text-align: center;
   color: #005E6A;
   margin-bottom: -40px;
-  font-family: 'Red Hat Display';
 }
 
 #main_title h1 {
@@ -165,7 +164,6 @@ footer {
 #sub_title {
   text-align: center;
   color: #005E6A;
-  font-family: 'Red Hat Display';
 }
 
 #sub_title h3 {
@@ -182,7 +180,6 @@ footer {
   text-align: center;
   width: 800px;
   padding-left: 125px;
-  font-family: 'Lexend Deca', sans-serif;
 }
 
 #desc p {
@@ -200,12 +197,12 @@ footer {
   border-style: solid;
   border-radius: 5px;
   border-width: 3px;
-  width: 450px;
-  margin-left: 285px;
+  width: 400px;
+  margin-left: 300px;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  font-family: 'Lexend Deca';
+  
 }
 
 .waiata_title {
@@ -238,16 +235,17 @@ footer {
 
 .main_title {
   background-color: #505050;
-  width: 245px;
+  width: 250px;
   color: #ffffff;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 32px;
   border-radius: 10px;
   position: absolute;
-  margin-top: -210px;
+  margin-top: -200px;
   margin-left: 100px;
   padding: 10px;
-  font-family: 'Red Hat Display', sans-serif;
+  padding-left: 50px;
+  font-family: 'Lexend Deca', serif;
 }
 
 .main_desc {
@@ -258,9 +256,7 @@ footer {
   padding: 15px;
   position: absolute;
   margin-left: 500px;
-  margin-top: -330px;
-  font-size: 16px;
-  font-family: 'Lexend Deca', sans-serif;
+  margin-top: -290px;
 }
 
 .main_desc a {
@@ -297,13 +293,11 @@ footer {
   margin-top: -250px;
   position: relative;
   z-index: 2;
-  font-family: 'Lexend Deca', sans-serif;
 }
 
 .sub {
-  color: #27CBFF;
+  color: #ffffff;
   font-weight: bold;
-  font-family: 'Red Hat Display', sans-serif;
   font-size: 24px;
 }
 
@@ -316,8 +310,8 @@ footer {
 }
 
 #stacked img {
-  width: 160px;
-  height: 110px;
+  width: 200px;
+  height: 150px;
   border: 2px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -325,13 +319,13 @@ footer {
 #stacked {
   margin-top: 350px;
   margin-left: 150px;
-  padding-bottom: 250px;
+  padding-bottom: 350px;
 }
 
 #sunset {
   transform: rotate(10deg);
   position: absolute;
-  margin-top: -200px;
+  margin-top: -240px;
 }
 
 #swan {
@@ -344,43 +338,40 @@ footer {
 #grassy {
   transform: rotate(10deg);
   position: absolute;
-  margin-top: 50px;
-  z-index: 1
+  margin-top: 80px;
+  z-index: 1; 
 }
 
 #swan img {
-  height: 120px;
-  width: 170px;
+  height: 150px;
+  width: 200px;
 }
 
 
 #sub1 {
   background-color: #505050;
-  width: 115px;
-  padding: 1px;
+  width: 163px;
   padding-left: 10px;
-  color: #27CBFF;
+  color: #ffffff;
+  font-size: 24px;
   border-radius: 10px;
   margin-left: 50px;
   position: absolute;
   margin-left: 420px;
-  margin-top: -500px;
-  font-family: 'Red Hat Display', sans-serif;
+  margin-top: -600px;
 }
 
 
 #humanuse_p {
   width: 400px;
   float: right;
-  margin-top: -440px;
+  margin-top: -500px;
   margin-right: 200px;
-  font-family: 'Lexend Deca', sans-serif;
-  padding-bottom: 100px;
 }
 
 .main_title2 {
   background-color: #505050;
-  width: 310px;
+  width: 320px;
   color: #ffffff;
   font-weight: bold;
   font-size: 40px;
@@ -389,8 +380,7 @@ footer {
   position: absolute;
   z-index: 2;
   margin-left: 580px;
-  margin-top: 220px;
-  font-family: 'Red Hat Display', sans-serif;
+  margin-top: 150px;
 }
 
 .main_desc2 {
@@ -400,12 +390,11 @@ footer {
   height: 290px;
   border-radius: 10px;
   padding: 15px; 
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
-  margin-top: 113px;
+  margin-top: 45px;
   margin-left: 25px;
   z-index: 2;
-  font-family: 'Lexend Deca', sans-serif;
 }
 
 #gradient_cover2 {
@@ -425,15 +414,15 @@ footer {
 
 #sub2 {
   background-color: #505050;
-  color: #27CBFF;
-  width: 160px;
+  color: #ffffff;
+  width: 245px;
   padding: 1px;
   padding-left: 10px;
   padding-right: 5px;
   border-radius: 10px;
-  margin-left: 415px;
+  margin-left: 375px;
   margin-top: 50px;
-  font-family: 'Red Hat Display', sans-serif;
+  font-size: 24px;
 }
 
 
@@ -441,7 +430,6 @@ footer {
   text-align: center;
   width: 780px;
   margin-left: 110px;
-  font-family: 'Lexend Deca', sans-serif;
 }
 
 #rocky_shore img {
@@ -456,21 +444,20 @@ footer {
 
 #sub3 {
   background-color: #505050;
-  color: #27CBFF;
-  width: 80px;
+  color: #ffffff;
+  font-size: 24px;
+  width: 120px;
   padding: 1px;
   padding-right: 5px;
   padding-left: 10px;
   border-radius: 10px;
-  margin-left: 160px;
+  margin-left: 150px;
   margin-top: 50px;
-  font-family: 'Red Hat Display', sans-serif;
 }
 
 #geo_p {
   width: 500px;
   margin-left: 170px;
-  font-family: 'Lexend Deca', sans-serif;
 }
 
 #side_image img {
@@ -479,7 +466,7 @@ footer {
 
 #side_image {
   position: absolute;
-  margin-top: -1080px;
+  margin-top: -900px;
   margin-left: 700px;
 }
 
@@ -487,8 +474,6 @@ footer {
   float: right;
   margin-right: 10px;
   margin-bottom: -20px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-style: italic;
 }
 
 
@@ -508,7 +493,6 @@ footer {
   position: absolute;
   margin-top: -220px;
   margin-left: 100px;
-  font-family: 'Red Hat Display', sans-serif;
 }
 
 .main_desc3 {
@@ -520,8 +504,7 @@ footer {
   position: absolute;
   padding: 15px;
   margin-left: 500px;
-  margin-top: -325px;
-  font-family: 'Lexend Deca';
+  margin-top: -310px;
 }
 
 
@@ -545,14 +528,12 @@ footer {
   float: right;
   margin-right: 400px;
   margin-top: 150px;
-  font-family: 'Red Hat Display';
 }
 
 #hist_p {
   width: 400px;
   margin-left: 500px;
   margin-top: 230px;
-  font-family: 'Lexend Deca';
 }
 
 #double img {
@@ -568,7 +549,7 @@ footer {
 }
 
 #double {
-  margin-top: -780px;
+  margin-top: -670px;
   padding-bottom: 100px;
   margin-left: 125px;
 }
@@ -585,11 +566,10 @@ footer {
   padding: 15px;
   border-radius: 10px;
   font-size: 40px;
-  width: 373px;
+  width: 370px;
   position: absolute;
   margin-top: -250px;
   margin-left: 550px;
-  font-family: 'Red Hat Display';
 }
 
 #waitemata_background img {
@@ -610,8 +590,7 @@ footer {
   padding: 15px;
   position: absolute;
   margin-left: 50px;
-  margin-top: -380px;
-  font-family: 'Lexend Deca';
+  margin-top: -350px;
 }
 
 #gradient_cover4 {
@@ -633,26 +612,25 @@ footer {
   margin-top:  190px;
   margin-left: 650px;
   z-index: 2;
-  font-family: 'Red Hat Display';
+  
 }
 
 #et_desc {
   color: #ffffff;
-  width: 350px;
+  width: 310px;
   position: absolute;
   z-index: 2;
   margin-top: 240px;
   margin-left: 650px;
-  font-size: 14px;
-  font-family: 'Lexend Deca';
+  font-size: 15px;
 }
 
 #triangle {
   width: 0;
-	height: 0;
-	border-left: 1026px solid transparent;
-	border-right: 0px solid transparent;
-	border-bottom: 551px solid #2E2E2E;
+  height: 0;
+  border-left: 1026px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 551px solid #2E2E2E;
   position: absolute;
   margin-left: 0px;
 }
@@ -663,10 +641,9 @@ footer {
   padding: 1px;
   padding-left: 10px;
   border-radius: 10px;
-  width: 75px;
+  width: 70px;
   margin-top: 100px;
   margin-left: 200px;
-  font-family: 'Red Hat Display';
 }
 
 #hist-p1 {
@@ -674,7 +651,6 @@ footer {
   padding-bottom: 50px;
   margin-left: 210px;
   margin-top: 20px;
-  font-family: 'Lexend Deca';
 }
 
 #map img {
@@ -692,10 +668,25 @@ footer {
   margin-left: 210px;
   margin-top: 50px;
   padding-bottom: 100px;
-  font-family: 'Lexend Deca';
 }
 
 .main_desc3 a {
   color: #ffffff;
 }
  
+
+.main_title a {
+  color: #ffffff;
+}
+
+.main_title2 a {
+  color: #ffffff;
+}
+
+.main_title3 a {
+  color: #ffffff;
+}
+
+.main_title4 a {
+  color: #ffffff;
+}
