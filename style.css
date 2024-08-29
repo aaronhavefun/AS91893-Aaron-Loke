@@ -160,6 +160,7 @@ footer {
 
 #main_title h1 {
   font-size: 64px;
+  font-family: 'Red Hat Display';
 }
 
 #sub_title {
@@ -171,17 +172,20 @@ footer {
 #sub_title h3 {
   font-size: 28px;
   font-weight: normal;
+  font-family: 'Red Hat Display';
 }
 
 #desc h3 {
   font-weight: normal;
   font-size: 28px;
+  font-family: 'Lexend Deca';
 }
 
 #desc {
   text-align: center;
   width: 800px;
   padding-left: 115px;
+  font-family: 'Lexend Deca';
 }
 
 #desc p {
@@ -207,21 +211,25 @@ footer {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Lexend Deca'
 }
 
 .waiata_title {
   color: #005A80;
   font-weight: bolder;
   font-size: 24px;
+  font-family: 'Lexend Deca'
 }
 
 .waiata_sub {
   font-weight: bold;
   font-size: 24px;
+  font-family: 'Lexend Deca'
 }
 
 #waiata_3 {
   font-weight: bold;
+  font-family: 'Lexend Deca'
 }
 /*Locations1.html page elements styling*/
 #pupuke_background img {
@@ -240,7 +248,7 @@ footer {
   margin-left: 100px;
   padding: 10px;
   padding-left: 50px;
-  font-family: 'Lexend Deca', serif;
+  font-family: 'Red Hat Display';
 }
 
 .main_desc {
@@ -251,7 +259,8 @@ footer {
   padding: 15px;
   position: absolute;
   margin-left: 500px;
-  margin-top: -290px;
+  margin-top: -320px;
+  font-family: 'Lexend Deca';
 }
 
 .main_desc a {
@@ -289,12 +298,14 @@ footer {
   position: relative;
   z-index: 2;
   border: 2px solid black;
+  font-family: 'Lexend Deca';
 }
 
 .sub {
   color: black;
   font-weight: bold;
   font-size: 24px;
+  font-family: 'Red Hat Display';
 }
 
 #black_line2 {
@@ -354,6 +365,7 @@ footer {
   position: absolute;
   margin-left: 420px;
   margin-top: -600px;
+  font-family: 'Red Hat Display';
 }
 
 
@@ -362,6 +374,7 @@ footer {
   float: right;
   margin-top: -525px;
   margin-right: 200px;
+  font-family: 'Lexend Deca'
 }
 /*Rangitoto Island Section Page Element Styling*/
 .main_title2 {
@@ -376,6 +389,7 @@ footer {
   z-index: 2;
   margin-left: 580px;
   margin-top: 150px;
+  font-family: 'Red Hat Display';
 }
 
 .main_desc2 {
@@ -385,11 +399,12 @@ footer {
   height: 290px;
   border-radius: 10px;
   padding: 15px; 
-  font-size: 16px;
+  font-size: 14px;
   position: absolute;
   margin-top: 45px;
   margin-left: 25px;
   z-index: 2;
+  font-family: 'Lexend Deca';
 }
 
 #rangitoto_background img {
@@ -407,6 +422,7 @@ footer {
   margin-left: 375px;
   margin-top: 50px;
   font-size: 24px;
+  font-family: 'Red Hat Display';
 }
 
 
@@ -415,6 +431,7 @@ footer {
   width: 780px;
   margin-left: 110px;
   margin-top: -20px;
+  font-family: 'Lexend Deca';
 }
 
 #rocky_shore img {
@@ -438,12 +455,14 @@ footer {
   border-radius: 10px;
   margin-left: 150px;
   margin-top: 50px;
+  font-family: 'Red Hat Display';
 }
 
 #geo_p {
   width: 500px;
   margin-left: 170px;
   margin-top: -25px;
+  font-family: 'Lexend Deca';
 }
 
 #side_image img {
@@ -454,7 +473,7 @@ footer {
 
 #side_image {
   position: absolute;
-  margin-top: -900px;
+  margin-top: -1100px;
   margin-left: 700px;
 }
 
@@ -482,6 +501,7 @@ footer {
   position: absolute;
   margin-top: -220px;
   margin-left: 100px;
+  font-family: 'Red Hat Display';
 }
 
 .main_desc3 {
@@ -493,7 +513,8 @@ footer {
   position: absolute;
   padding: 15px;
   margin-left: 500px;
-  margin-top: -320px;
+  margin-top: -325px;
+  font-family: 'Lexend Deca';
 }
 
 
@@ -507,12 +528,14 @@ footer {
   float: right;
   margin-right: 340px;
   margin-top: 120px;
+  font-family: 'Red Hat Display';
 }
 
 #hist_p {
   width: 400px;
   margin-left: 500px;
   margin-top: 200px;
+  font-family: 'Lexend Deca';
 }
 
 #double img {
@@ -528,7 +551,7 @@ footer {
 }
 
 #double {
-  margin-top: -670px;
+  margin-top: -750px;
   padding-bottom: 100px;
   margin-left: 125px;
 }
@@ -547,8 +570,9 @@ footer {
   font-size: 40px;
   width: 370px;
   position: absolute;
-  margin-top: -250px;
+  margin-top: -280px;
   margin-left: 550px;
+  font-family: 'Red Hat Display';
 }
 
 #waitemata_background img {
@@ -569,7 +593,8 @@ footer {
   padding: 15px;
   position: absolute;
   margin-left: 50px;
-  margin-top: -350px;
+  margin-top: -370px;
+  font-family: 'Lexend Deca';
 }
 
 #tri_background img {
@@ -583,6 +608,7 @@ footer {
   margin-top:  210px;
   margin-left: 45px;
   z-index: 2;
+  font-family: 'Red Hat Display';
 }
 
 #et_desc {
@@ -593,6 +619,7 @@ footer {
   margin-top: 300px;
   margin-left: 50px;
   font-size: 16px;
+  font-family: 'Lexend Deca';
 }
 
 #triangle {
@@ -614,6 +641,7 @@ footer {
   width: 105px;
   margin-top: 100px;
   margin-left: 200px;
+  font-family: 'Red Hat Display';
 }
 
 #hist-p1 {
@@ -621,6 +649,7 @@ footer {
   padding-bottom: 50px;
   margin-left: 210px;
   margin-top: -10px;
+  font-family: 'Lexend Deca';
 }
 
 #map img {
@@ -638,6 +667,7 @@ footer {
   margin-left: 210px;
   margin-top: 50px;
   padding-bottom: 100px;
+  font-family: 'Lexend Deca';
 }
 /*Colouring of external hyperlinks*/
 .main_desc3 a {
@@ -678,4 +708,5 @@ footer {
   color: #505050;
   font-style: italic;
   margin-left: 300px;
+  font-family: 'Lexend Deca';
 }
