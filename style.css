@@ -156,7 +156,7 @@ footer {
   text-align: center;
   color: #005E6A;
   margin-bottom: -40px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #main_title h1 {
@@ -207,6 +207,7 @@ footer {
   margin-bottom: 50px;
   text-align: center;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .waiata_title {
@@ -217,6 +218,7 @@ footer {
 
 .waiata_sub {
   font-weight: bold;
+  font-size: 22px;
 }
 
 #waiata_3 {
@@ -227,19 +229,10 @@ footer {
   width: 1026px;
 }
 
-#gradient_cover {
-  height: 350px;
-  width: 1026px;
-  background-image: linear-gradient(90deg, #A0D2E8, black );
-  opacity: 0.7;
-  position: absolute;
-  margin-top: -354px;
-}
-
 .main_title {
-  background-color: #505050;
+  background-color: #ffffff;
   width: 250px;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
   font-size: 32px;
   border-radius: 10px;
@@ -252,8 +245,8 @@ footer {
 }
 
 .main_desc {
-  background-color: #505050;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
   width: 422px;
   border-radius: 10px;
   padding: 15px;
@@ -263,7 +256,7 @@ footer {
 }
 
 .main_desc a {
-  color: #ffffff;
+  color: black;
 }
 
 .circles {
@@ -286,20 +279,21 @@ footer {
 }
 
 #geo_maori_pupuke {
-  background-color: #454545;
+  background-color: #ffffff;
   width: 690px;
   text-align: center;
   padding: 15px;
   border-radius: 10px;
-  color: #ffffff;
+  color: black;
   margin-left: 150px;
   margin-top: -250px;
   position: relative;
   z-index: 2;
+  border: 2px solid black;
 }
 
 .sub {
-  color: #ffffff;
+  color: black;
   font-weight: bold;
   font-size: 24px;
 }
@@ -352,10 +346,9 @@ footer {
 
 
 #sub1 {
-  background-color: #505050;
   width: 163px;
   padding-left: 10px;
-  color: #ffffff;
+  color: black;
   font-size: 24px;
   border-radius: 10px;
   margin-left: 50px;
@@ -368,12 +361,12 @@ footer {
 #humanuse_p {
   width: 400px;
   float: right;
-  margin-top: -500px;
+  margin-top: -525px;
   margin-right: 200px;
 }
 
 .main_title2 {
-  background-color: #505050;
+  background-color: #ffffff ;
   width: 320px;
   color: #ffffff;
   font-weight: bold;
@@ -387,8 +380,8 @@ footer {
 }
 
 .main_desc2 {
-  background-color: #505050;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
   width: 450px;
   height: 290px;
   border-radius: 10px;
@@ -400,24 +393,13 @@ footer {
   z-index: 2;
 }
 
-#gradient_cover2 {
-  width: 1026px;
-  height: 400px;
-  background-image: linear-gradient(90deg, black, #A0D2E8 );
-  opacity: 0.7;
-  position: absolute;
-  margin-top: -404px;
-  z-index: 1;
-}
-
 #rangitoto_background img {
   width: 1026px;
   max-height: 400px;
 }
 
 #sub2 {
-  background-color: #505050;
-  color: #ffffff;
+  color: black;
   width: 245px;
   padding: 1px;
   padding-left: 10px;
@@ -433,6 +415,7 @@ footer {
   text-align: center;
   width: 780px;
   margin-left: 110px;
+  margin-top: -20px;
 }
 
 #rocky_shore img {
@@ -447,8 +430,7 @@ footer {
 }
 
 #sub3 {
-  background-color: #505050;
-  color: #ffffff;
+  color: black;
   font-size: 24px;
   width: 120px;
   padding: 1px;
@@ -462,6 +444,7 @@ footer {
 #geo_p {
   width: 500px;
   margin-left: 170px;
+  margin-top: -25px;
 }
 
 #side_image img {
@@ -489,8 +472,8 @@ footer {
 }
 
 .main_title3 {
-  background-color: #505050;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
   width: 210px;
   padding: 15px;
   border-radius: 10px;
@@ -502,8 +485,8 @@ footer {
 }
 
 .main_desc3 {
-  background-color: #505050;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
   border-radius: 10px;
   width: 400px;
   font-size: 16px;
@@ -514,18 +497,8 @@ footer {
 }
 
 
-#gradient_cover3 {
-  background-image: linear-gradient(90deg, #A0D2E8, black);
-  opacity: 0.7;
-  width: 1026px;
-  height: 331px;
-  margin-top: -335px;
-  position: absolute;
-}
-
 #sub4 {
-  background-color: #505050;
-  color: #ffffff;
+  color: black;
   font-size: 24px;
   width: 180px;
   border-radius: 10px;
@@ -539,7 +512,7 @@ footer {
 #hist_p {
   width: 400px;
   margin-left: 500px;
-  margin-top: 230px;
+  margin-top: 200px;
 }
 
 #double img {
@@ -566,8 +539,8 @@ footer {
 }
 
 .main_title4 {
-  background-color: #505050;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
   font-weight: bold;
   padding: 15px;
   border-radius: 10px;
@@ -588,8 +561,8 @@ footer {
 }
 
 .main_desc4 {
-  background-color: #505050;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
   border-radius: 10px;
   width: 400px;
   font-size: 16px;
@@ -599,35 +572,26 @@ footer {
   margin-top: -350px;
 }
 
-#gradient_cover4 {
-  background-image: linear-gradient(90deg, black, #A0D2E8);
-  opacity: 0.7;
-  width: 1026px;
-  height: 435px;
-  position: absolute;
-  margin-top: -439px;
-}
-
 #tri_background img {
   width: 1026px;
 }
 
 #sub5 {
-  color: #ffffff;
+  color: black;
   font-size: 32px;
   position: absolute;
-  margin-top:  200px;
-  margin-left: 10px;
+  margin-top:  210px;
+  margin-left: 45px;
   z-index: 2;
 }
 
 #et_desc {
-  color: #ffffff;
+  color: black;
   width: 450px;
   position: absolute;
   z-index: 2;
   margin-top: 300px;
-  margin-left: 10px;
+  margin-left: 50px;
   font-size: 16px;
 }
 
@@ -636,14 +600,13 @@ footer {
   height: 0;
   border-left: 0px solid transparent;
   border-right: 1026px solid transparent;
-  border-bottom: 551px solid #2E2E2E;
+  border-bottom: 551px solid #ffffff;
   position: absolute;
   margin-left: 0px;
 }
 
 #sub6 {
-  background-color: #505050;
-  color: #ffffff;
+  color: black;
   font-size: 24px;
   padding: 1px;
   padding-left: 10px;
@@ -657,7 +620,7 @@ footer {
   width: 600px;
   padding-bottom: 50px;
   margin-left: 210px;
-  margin-top: 20px;
+  margin-top: -10px;
 }
 
 #map img {
@@ -678,22 +641,34 @@ footer {
 }
 
 .main_desc3 a {
-  color: #ffffff;
+  color: black;
 }
  
 
 .main_title a {
-  color: #ffffff;
+  color: black;
+  text-decoration: none;
 }
 
 .main_title2 a {
-  color: #ffffff;
+  color: black;
+  text-decoration: none;
 }
 
 .main_title3 a {
-  color: #ffffff;
+  color: black;
+  text-decoration: none;
 }
 
 .main_title4 a {
-  color: #ffffff;
+  color: black;
+  text-decoration: none;
+}
+
+#black_line3 {
+  width: 700px;
+  height: 5px;
+  background-color: black;
+  margin-top: 100px;
+  margin-left: 160px;
 }
