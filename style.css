@@ -218,7 +218,7 @@ footer {
 
 .waiata_sub {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 #waiata_3 {
@@ -463,6 +463,7 @@ footer {
   float: right;
   margin-right: 10px;
   margin-bottom: -20px;
+  font-style:  italic;
 }
 
 

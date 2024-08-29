@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Meta tags, link for stylesheet, title and importing fonts.-->
-    <!--Additionally external links for gallery scripts.-->
+    <!--Meta tags, link for stylesheet, title, fonts, external gallery libary and scripts.-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,134 +9,118 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script><html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400;700;900&display=swap" rel="stylesheet">
+        
+    <!-- Page title -->
     <title>Home</title>
 </head>
 <body>
-<!--Block containing all the websites elements-->
-<div id="page_container">
-    <!--Items inside the header, both the header design itself and the navigational buttons.-->
-    <header>
-        <div id="logo">
-            <img src="images/kahui_logo.png" alt="Pupuke Kahui Logo">
-        </div>
-        <div id="page_title">
-            <h1 class="title">Pupuke Kāhui Ako</h1>
-        </div>
-    </header>
-    <nav>
-        <!--Navigational buttons.-->
-        <ul>
-            <li><a href="index.html"><strong>Home</strong></a></li>
-            <li><a href="locations1.html"><strong>Lake Pupuke & Rangitoto Island</strong></a></li>
-            <li><a href="locations2.html"><strong>Ngāti Paoa & Waitematā Harbour</strong></a></li>
-        </ul>
-    </nav>
-    <!--Containers for page information, subtitles and headers.-->
-    <div id="main_title">
-        <h1>Our Vision</h1>
-    </div>
-    <div id="sub_title">
-        <h3>To Tatou Tirohanga</h3>
-    </div>
-
-    <div id="desc">
-        <h3>Westlake Boys Highschool in its Locality</h3>
-        <p>To create a rich, collaborative culture that unites kura (schools), pouako (teachers),
-            ākonga (students) and whānau to work collectively on common goals for the benefit of all</p>
-        <p>'Ehara taku toa i te toa takitahi, engari he toa takitini' - success is not in the work
-            of an individual, but the work of many.
-        </p>
-    </div>
-
-    <!--Seperator-->
-    <div id="black_line"></div>
-
-
-    <!--Gallery images with resized images to fit a consistent scheme-->
-    <div id="gallery">
-        <a data-fancybox="gallery" href="images/bench.jpg"><img src="resized/bench.jpg" alt="Bench Overlooking Waitemata Harbour" class="thumb"></a>
-        <a data-fancybox="gallery" href="images/bridge.jpg"><img src="resized/bridge.jpg" alt="Bridge Lake Pupuke" class="thumb"></a>
-        <a data-fancybox="gallery" href="images/eastward_view.jpg"><img src="resized/eastward_view.jpg" alt="Eastward View of Lake Pupuke" class="thumb"></a>
-        <a data-fancybox="gallery" href="images/lighthouse.jpg"><img src="resized/lighthouse.jpg" alt="Lighthouse" class="thumb"></a>
-        <a data-fancybox="gallery" href="images/rangitoto_aerial.jpg"><img src="resized/rangitoto_aerial.jpg" alt="Rangitoto from Above" class="thumb"></a>
-        <a data-fancybox="gallery" href="images/rangitoto_sunset.jpg"><img src="resized/rangitoto_sunset.jpg" alt="Rangitoto during Sunset" class="thumb"></a>
-       
-    </div>
-
-    <div id="black_line"></div>
+    <!-- Main container for all page elements -->
+    <div id="page_container">
+        <!-- Header section with logo and page title -->
+        <header>
+            <div id="logo">
+                <img src="images/kahui_logo.png" alt="Pupuke Kahui Logo">
+            </div>
+            <div id="page_title">
+                <h1 class="title">Pupuke Kāhui Ako</h1>
+            </div>
+        </header>
     
-    <!--Waiata-->
-    <div id="waiata">
-        <div class="waiata_title">
-            <br>'RANGITOTO'
-        </div>
-        <div class="waiata_sub">
-            <br>nā Johnny Waititi
-        </div>
-        <div id="waiata_1">
-            <br>Rangitoto te maunga<br><br>
-
-            Waitematā te moana<br><br>
-
-            Ngāti Paoa te iwi e<br><br>
-
-            Ko Pupuke te roto<br><br>
-
-            Anei ngā kura o Te Kāhui Ako<br><br>
-
-            E ngā iwi, tēnā koutou (2x)<br><br>
-        <div class="waiata_sub">
-            <br><br>English Translation:<br><br>
-        </div>
-        <div id="waiata_2">
-            Rangitoto is the mountain<br><br>
-
-            Waitemata is the ocean<br><br>
-
-            Ngati Paoa are the iwi<br><br>
-
-            Pupuke is the lake<br><br>
-
-        </div>
-        <div id="waiata_3">
-            Here are the schools of our Community of learning
-            Everyone welcome. Everyone, welcome.<br><br>
-        </div>
-
-        </div>
-    </div>
-    <!--Footer elements.-->
-    <footer>
-        <div id="more_info">
+        <!-- Navigation menu -->
+        <nav>
             <ul>
-                <!--Footer navigational links.-->
-                <li><a href="locations1.html">Lake Pupuke & Rangitoto Island</a></li>
-                <li><a href="locations2.html">Ngāti Paoa & Waitematā Harbour</a></li>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="locations1.html"><strong>Lake Pupuke & Rangitoto Island</strong></a></li>
+                <li><a href="locations2.html"><strong>Ngāti Paoa & Waitematā Harbour</strong></a></li>
             </ul>
-        </div>
-        <!--Footer design elements and information.-->
-        <div id="footer_logo">
-            <img src="images/kahui_logo.png" alt="Pupuke Kahui Ako Logo">
-        </div>
-
-        <div id="white_line"></div>
-
-        <div id="info">
-            <h1>Want to learn more?</h1>
-            <h2>Visit the offcial Te Kāhui Ako o Pupuke website.</h2>
-            <!--Link to main website.-->
-            <h3><a href="https://www.tekaahuiakoopupuke.co.nz/" target="_blank">https://www.tekaahuiakoopupuke.co.nz/</a></h3>
-        </div>
-    </footer>
-
-</div>
+        </nav>
     
-</body>
+        <!-- Main content sections -->
+        <div id="main_title">
+            <h1>Our Vision</h1>
+        </div>
+        <div id="sub_title">
+            <h3>To Tatou Tirohanga</h3>
+        </div>
+        <div id="desc">
+            <h3>Westlake Boys Highschool in its Locality</h3>
+            <p>To create a rich, collaborative culture that unites kura (schools), pouako (teachers),
+                ākonga (students) and whānau to work collectively on common goals for the benefit of all</p>
+            <p>'Ehara taku toa i te toa takitahi, engari he toa takitini' - success is not in the work
+                of an individual, but the work of many.
+            </p>
+        </div>
+    
+        <!-- Separator -->
+        <div id="black_line"></div>
+    
+        <!-- Image gallery using FancyBox -->
+        <div id="gallery">
+            <a data-fancybox="gallery" href="images/bench.jpg"><img src="resized/bench.jpg" alt="Bench Overlooking Waitemata Harbour" class="thumb"></a>
+            <a data-fancybox="gallery" href="images/bridge.jpg"><img src="resized/bridge.jpg" alt="Bridge Lake Pupuke" class="thumb"></a>
+            <a data-fancybox="gallery" href="images/eastward_view.jpg"><img src="resized/eastward_view.jpg" alt="Eastward View of Lake Pupuke" class="thumb"></a>
+            <a data-fancybox="gallery" href="images/lighthouse.jpg"><img src="resized/lighthouse.jpg" alt="Lighthouse" class="thumb"></a>
+            <a data-fancybox="gallery" href="images/rangitoto_aerial.jpg"><img src="resized/rangitoto_aerial.jpg" alt="Rangitoto from Above" class="thumb"></a>
+            <a data-fancybox="gallery" href="images/rangitoto_sunset.jpg"><img src="resized/rangitoto_sunset.jpg" alt="Rangitoto during Sunset" class="thumb"></a>
+        </div>
+    
+        <!-- Another separator -->
+        <div id="black_line"></div>
+    
+        <!-- Waiata section -->
+        <div id="waiata">
+            <div class="waiata_title">
+                <br>'RANGITOTO'
+            </div>
+            <div class="waiata_sub">
+                <br>nā Johnny Waititi
+            </div>
+            <div id="waiata_1">
+                <br>Rangitoto te maunga<br><br>
+                Waitematā te moana<br><br>
+                Ngāti Paoa te iwi e<br><br>
+                Ko Pupuke te roto<br><br>
+                Anei ngā kura o Te Kāhui Ako<br><br>
+                E ngā iwi, tēnā koutou (2x)<br><br>
+            </div>
+            <div class="waiata_sub">
+                <br><br>English Translation:<br><br>
+            </div>
+            <div id="waiata_2">
+                Rangitoto is the mountain<br><br>
+                Waitemata is the ocean<br><br>
+                Ngati Paoa are the iwi<br><br>
+                Pupuke is the lake<br><br>
+            </div>
+            <div id="waiata_3">
+                Here are the schools of our Community of learning
+                Everyone welcome. Everyone, welcome.<br><br>
+            </div>
+        </div>
+    
+        <!-- Footer section -->
+        <footer>
+            <div id="more_info">
+                <ul>
+                    <li><a href="locations1.html">Lake Pupuke & Rangitoto Island</a></li>
+                    <li><a href="locations2.html">Ngāti Paoa & Waitematā Harbour</a></li>
+                </ul>
+            </div>
+            <div id="footer_logo">
+                <img src="images/kahui_logo.png" alt="Pupuke Kahui Ako Logo">
+            </div>
+            <div id="white_line"></div>
+            <div id="info">
+                <h1>Want to learn more?</h1>
+                <h2>Visit the official Te Kāhui Ako o Pupuke website.</h2>
+                <h3><a href="https://www.tekaahuiakoopupuke.co.nz/" target="_blank">https://www.tekaahuiakoopupuke.co.nz/</a></h3>
+            </div>
+        </footer>
+    </div>
+    </body>
 </html>
